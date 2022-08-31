@@ -35,7 +35,7 @@ try:
         profile_data = res_data['result']['data']
         #print(profile_data)
         total_len=int(profile_data[2:6],16)*2
-        print(total_len)
+        #print(total_len)
     else:
         print('API response have no data')
 except Exception as e:
